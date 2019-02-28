@@ -12,12 +12,17 @@
             </span>
             <?php endif; ?>
 
-            <input type="text" name="nome" value="<?php echo $tarefa['nome'];?>" class="form-control"/>
+            <input type="text" name="nome" value="<?php echo $tarefa['nome']; ?>" class="form-control"/>
         </label>
         <br>
 
         <label>
             Prazo:
+            <?php if ($tem_erros && isset($erros_validacao['prazo'])) : ?>
+                <span class="text-danger">
+                <?php echo $erros_validacao['prazo']; ?>
+            </span>
+            <?php endif; ?>
             <input type="text" name="prazo" value="<?php echo traduz_data_para_exibir($tarefa['prazo']); ?>"
                    class="form-control">
         </label>
@@ -44,10 +49,10 @@
                         : ''; ?>
                        ?/>Media
                 <input type="radio" name="prioridade" value="3"
-                <?php echo ($tarefa['prioridade'] == 3)
-                ? 'checked'
-                : '';
-                ?>/>Alta
+                    <?php echo ($tarefa['prioridade'] == 3)
+                        ? 'checked'
+                        : '';
+                    ?>/>Alta
             </label>
         </fieldset>
 
@@ -57,6 +62,7 @@
         </label>
         <hr>
 
-        <input type="submit" value="<?php echo ($tarefa['id'] > 0) ? 'Atualizar' : 'Cadastrar'; ?>" class="btn btn-info"/>
+        <input type="submit" value="<?php echo ($tarefa['id'] > 0) ? 'Atualizar' : 'Cadastrar'; ?>"
+               class="btn btn-info"/>
     </fieldset>
 </form>
