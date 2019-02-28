@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2ed55600-c860-4458-9224-de706dbfec4e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajudantes.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajudantes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tarefas.php" beforeDir="false" afterPath="$PROJECT_DIR$/tarefas.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,7 +70,7 @@
       <file leaf-file-name="ajudantes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ajudantes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="666">
               <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
             </state>
           </provider>
@@ -118,9 +115,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="32767" />
+    <option name="y" value="32767" />
+    <option name="width" value="3306" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,16 +181,15 @@
       <workItem from="1551197689896" duration="2226000" />
       <workItem from="1551216638774" duration="6595000" />
       <workItem from="1551304660427" duration="835000" />
-      <workItem from="1551312386879" duration="1986000" />
+      <workItem from="1551312386879" duration="2365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42613000" />
+    <option name="totallyTimeSpent" value="42992000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="32767" y="32767" width="3306" height="1100" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -583,7 +580,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ajudantes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
+        <state relative-caret-position="666">
           <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
         </state>
       </provider>
